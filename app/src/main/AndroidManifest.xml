@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ceci.viafitnessapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Pedometer" />
+        <activity android:name=".DietActivity" />
+        <activity android:name=".menu" />
+        <activity android:name=".Calculator" />
+        <activity android:name=".WaterConsumation" />
+        <activity android:name=".AbsActivity" />
+        <activity android:name=".ExcerciseActivity" />
+        <activity android:name=".BackActivity" />
+        <activity android:name=".BarbellFullSquatActivity" />
+        <activity android:name=".BarbellGluteBridgeActivity" />
+        <activity android:name=".BarbellHipThrustActivity" />
+        <activity android:name=".BentOverOneArmLongBarRowActivity" />
+        <activity android:name=".BicepsActivity" />
+        <activity android:name=".BicyclingActivity" />
+        <activity android:name=".CardioActivity" />
+        <activity android:name=".ChestActivity" />
+        <activity android:name=".CleanFromBlocksActivity" />
+        <activity android:name=".DeclineEzBarTricepsExtensionActivity" />
+        <activity android:name=".DipsTricepsVersionActivity" />
+        <activity android:name=".DumbelBenchPressActivity" />
+        <activity android:name=".DumbellFloorPressActivity" />
+        <activity android:name=".DumbellFlyesActivity" />
+        <activity android:name=".ForearmActivity" />
+        <activity android:name=".GlutesActivity" />
+        <activity android:name=".InclineHammerCurlsActivity" />
+        <activity android:name=".Landmine180sActivity" />
+        <activity android:name=".LowerLegActivity" />
+        <activity android:name=".OneArmLongBarRowActivity" />
+        <activity android:name=".OneArmMedicineBallActivity" />
+        <activity android:name=".PalmsDownWristCurlOverABenchActivity" />
+        <activity android:name=".PushupsActivity" />
+        <activity android:name=".RickshawCarryActivity" />
+        <activity android:name=".RopeJumpingActivity" />
+        <activity android:name=".SeatedCalfRaiseActivity" />
+        <activity android:name=".ShoulderActivity" />
+        <activity android:name=".SideLatersToFrontRaiseActivity" />
+        <activity android:name=".SingleArmLinearJammerActivity" />
+        <activity android:name=".SingleLegGluteBridgeActivity" />
+        <activity android:name=".SingleLegPressActivity" />
+        <activity android:name=".SmithMachineCalfRaiseActivity" />
+        <activity android:name=".SpiderCurlActivity" />
+        <activity android:name=".StandingCalfRaisesActivity" />
+        <activity android:name=".StepMillActivity" />
+        <activity android:name=".SuspendedFalloutActivity" />
+        <activity android:name=".TricepsActivity" />
+        <activity android:name=".UpperLegActivity" />
+        <activity android:name=".WeightedPullUpsActivity" />
+        <activity android:name=".WideGripStandingBarbellCurlActivity" />
+        <activity android:name=".WristRotationsWithStraightBarActivity" />
+        <activity android:name=".CustomWorkout" />
+        <activity android:name=".Workout"></activity>
+    </application>
+
+</manifest>
